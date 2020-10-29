@@ -265,21 +265,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_16 = function() {
+(lib.CachedBmp_55 = function() {
 	this.initialize(ss["dnb_infographic_atlas_1"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_15 = function() {
+(lib.CachedBmp_54 = function() {
 	this.initialize(ss["dnb_infographic_atlas_1"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_14 = function() {
+(lib.CachedBmp_53 = function() {
 	this.initialize(ss["dnb_infographic_atlas_1"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
@@ -300,7 +300,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_11 = function() {
+(lib.CachedBmp_52 = function() {
 	this.initialize(ss["dnb_infographic_atlas_1"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
@@ -370,7 +370,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_51 = function() {
 	this.initialize(ss["dnb_infographic_atlas_1"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
@@ -3089,7 +3089,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.whiteheadboy();
 	this.instance.setTransform(-0.2,-16.25);
 
-	this.instance_1 = new lib.CachedBmp_16();
+	this.instance_1 = new lib.CachedBmp_55();
 	this.instance_1.setTransform(-7.65,-13.5,0.5,0.5);
 
 	this.instance_2 = new lib.FOOTTHREE();
@@ -3108,13 +3108,13 @@ if (reversed == null) { reversed = false; }
 	this.headone.name = "headone";
 	this.headone.setTransform(10,-30.75);
 
-	this.instance_6 = new lib.CachedBmp_15();
+	this.instance_6 = new lib.CachedBmp_54();
 	this.instance_6.setTransform(-0.4,-27.1,0.5,0.5);
 
 	this.instance_7 = new lib.headtwo();
 	this.instance_7.setTransform(-16.95,-30.8);
 
-	this.instance_8 = new lib.CachedBmp_14();
+	this.instance_8 = new lib.CachedBmp_53();
 	this.instance_8.setTransform(-22.9,-26.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.headone},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -3404,7 +3404,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3 = new lib.hoofdtwee();
 	this.instance_3.setTransform(-16.75,-30.4);
 
-	this.instance_4 = new lib.CachedBmp_11();
+	this.instance_4 = new lib.CachedBmp_52();
 	this.instance_4.setTransform(-22.65,-25.4,0.5,0.5);
 
 	this.instance_5 = new lib.handstwo();
@@ -4071,7 +4071,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(59.1,568.9,1,1,0,0,0,50.8,18.9);
 
-	this.instance_1 = new lib.CachedBmp_1();
+	this.instance_1 = new lib.CachedBmp_51();
 	this.instance_1.setTransform(12.2,553.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
